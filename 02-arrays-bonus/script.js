@@ -53,6 +53,6 @@ const isFabioPresent = boolResult === 1;
 console.log(isFabioPresent);
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-let arrayToString = teachers.toString()
+const teachersString = teachers.toString()
 
-console.log(arrayToString)
+console.log(teachersString)
